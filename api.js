@@ -112,10 +112,17 @@ git init => nesse caso nosso repositorio ainda nao era um git
 criamos o .gitignore com os arquivos que devem ser ignorados
 adicionamos o script de pre install no package json
 
-heroku apps:create nomeDaApi
-git add . && git commit -m "mensagem"
-git push heroku master -> nesse momento adicionou a origin para visualizar as origins 
-git 
+criamos um arquvo ProcFile com os comandos que o heroku deve rodar para nossa aplicação funcionar
+
+web: web tem vida curta, dependendo do request ele morre para economizar energia
+worker: jobs, cron, programas que executam periodicamente
+
+nesse momento adicionou a origin para visualizar as origins 
+> heroku apps:create nomeDaApi
+> git add . && git commit -m "mensagem"
+> git push heroku master
+> git 
+
 */
 
 /*
