@@ -101,8 +101,21 @@ http://pm2.keymetrics.io/
 > pm2 start --name api-carros api.js -i max | quantidade
 > pm2 scale api 10
 
-no package.json, 
+no package.json, adicionamos scripts de execução da nossa aplicação
+para o servidor saber qual é o ambiente que deve trabalhar
 
+
+instalamos o heroku toolbelt => cli
+criamos uma conta no heroku
+heroku login ou heroku auth:login
+git init => nesse caso nosso repositorio ainda nao era um git
+criamos o .gitignore com os arquivos que devem ser ignorados
+adicionamos o script de pre install no package json
+
+heroku apps:create nomeDaApi
+git add . && git commit -m "mensagem"
+git push heroku master -> nesse momento adicionou a origin para visualizar as origins 
+git 
 */
 
 /*

@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "preinstall": "npm i -g pm2",
     "start": "nodemon api.js",
     "prod": "set NODE_ENV=production && pm2-docker api.js",
     "dev": "set NODE_ENV=desenv && pm2 start --name api-carros api.js",
