@@ -123,6 +123,10 @@ nesse momento adicionou a origin para visualizar as origins
 > git push heroku master
 > git 
 
+
+heroku run bash
+heroku logs -t
+
 */
 
 /*
